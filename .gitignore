@@ -178,3 +178,8 @@ products_vectorstore/
 
 # ignore diagnostics reports
 **/report.txt
+
+# Own
+.devenv
+.direnv
+week1/.ipynb_checkpoints
