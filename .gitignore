@@ -182,4 +182,6 @@ products_vectorstore/
 # Own
 .devenv
 .direnv
+flake.nix
 week1/.ipynb_checkpoints
+
