@@ -26,7 +26,9 @@ dependencies = [
     "pandas == 2.2.3",
     "orjson == 3.10.12",
     "xmltodict == 0.14.2",
-    "openai == 1.58.1"
+    "openai == 1.58.1",
+    "gradio == 5.9.1",
+    "ipywidgets == 8.1.5"
 ]
 
 

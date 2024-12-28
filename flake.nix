@@ -47,6 +47,8 @@
             python312Packages.jupyterlab
             python312Packages.anthropic
             python312Packages.openai
+            python312Packages.gradio
+            python312Packages.ipywidgets
             ollama
 
             isort
