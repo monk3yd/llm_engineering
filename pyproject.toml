@@ -25,7 +25,8 @@ dependencies = [
     "tqdm == 4.67.1",
     "pandas == 2.2.3",
     "orjson == 3.10.12",
-    "xmltodict == 0.14.2"
+    "xmltodict == 0.14.2",
+    "openai == 1.58.1"
 ]
 
 
