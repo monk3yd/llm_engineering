@@ -15,6 +15,7 @@
         overlays = [
         (final: prev: {
           python312Packages = prev.python312Packages // {
+
             gradio = prev.python312Packages.gradio.overridePythonAttrs (old: {
               version = "5.9.1";
               pythonImportsCheck = [];
@@ -41,6 +42,7 @@
                 rm -f _frontend_code/lite/examples/transformers_basic/run.py
               '';
             });
+
           };
         })
         ];
@@ -85,6 +87,8 @@
             python312Packages.ipywidgets
             python312Packages.ollama
             ollama
+            python312Packages.transformers
+            python312Packages.torch
 
             isort
             black
