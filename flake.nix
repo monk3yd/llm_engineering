@@ -83,6 +83,7 @@
             python312Packages.openai
             python312Packages.gradio
             python312Packages.ipywidgets
+            python312Packages.ollama
             ollama
 
             isort

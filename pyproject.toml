@@ -28,7 +28,8 @@ dependencies = [
     "xmltodict == 0.14.2",
     "openai == 1.58.1",
     "gradio == 5.9.1",
-    "ipywidgets == 8.1.5"
+    "ipywidgets == 8.1.5",
+    "ollama == 0.4.7"
 ]
 
 
